@@ -1,0 +1,499 @@
+.subtract-icon {
+    position: absolute;
+    top: 461px;
+    left: 159px;
+    width: 364px;
+    height: 1px;
+    z-index: 1;
+  }
+  
+  .login1 {
+    margin: 0;
+    height: 21px;
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    color: #000;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .login-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  }
+  
+  .how-to-i {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-poppins);
+    color: var(--color-dimgray);
+    text-align: left;
+  }
+  
+  .frame-group,
+  .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  .frame-group {
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .frame-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-sm) var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  
+  .frame-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  
+  .username {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 62px;
+  }
+  
+  .frame-container,
+  .username-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  
+  .frame-container {
+    align-self: stretch;
+    border-radius: var(--br-base);
+    background-color: var(--color-lavender-200);
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-lg);
+    gap: var(--gap-7xs);
+  }
+  
+  .frame-icon1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  
+  .frame-child,
+  .frame-div,
+  .frame-parent1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  
+  .frame-child {
+    width: 58px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 21px;
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-100);
+  }
+  
+  .frame-div,
+  .frame-parent1 {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  
+  .frame-parent1 {
+    flex: 1;
+    border-radius: var(--br-base);
+    background-color: var(--color-lavender-200);
+    padding: var(--padding-sm) var(--padding-lg);
+    gap: var(--gap-7xs);
+  }
+  
+  .frame-div {
+    align-self: stretch;
+    padding: 0 0 var(--padding-5xs);
+  }
+  
+  .login-now {
+    position: relative;
+    font-size: var(--font-size-xs);
+    display: inline-block;
+    font-family: var(--font-poppins);
+    color: var(--color-white);
+    text-align: left;
+    min-width: 63px;
+  }
+  
+  .login-now-button,
+  .login-now-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .login-now-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-mid) 31px var(--padding-mid) 30px;
+    background-color: transparent;
+    border-radius: var(--br-base);
+    background: linear-gradient(99.78deg, #9181f4, #5038ed);
+    box-shadow: 0 8px 21px rgba(0, 0, 0, 0.16);
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  
+  .login-now-button {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-5xs);
+  }
+  
+  .login2,
+  .with-others {
+    font-family: var(--font-poppins);
+    color: var(--color-gray-100);
+  }
+  
+  .with-others {
+    color: var(--color-dimgray);
+  }
+  
+  .login-with-others-container {
+    width: 139px;
+    position: relative;
+    font-size: var(--font-size-base);
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .login-with-others-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-5xs) var(--padding-2xl);
+  }
+  
+  .google-1-icon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .google,
+  .login-with {
+    font-family: var(--font-poppins);
+  }
+  
+  .login-with-google-container {
+    position: relative;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-100);
+    text-align: left;
+  }
+  
+  .google-1-parent,
+  .login-with-google-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  
+  .google-1-parent {
+    cursor: pointer;
+    border: 1px solid var(--color-lavender-100);
+    padding: var(--padding-2xs) var(--padding-xl);
+    background-color: transparent;
+    align-self: stretch;
+    border-radius: var(--br-base);
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  
+  .facebook-1-icon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .facebook,
+  .login-with1 {
+    font-family: var(--font-poppins);
+  }
+  
+  .login-with-facebook-container {
+    position: relative;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-100);
+    text-align: left;
+  }
+  
+  .login-with-facebook-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  
+  .facebook-1-parent,
+  .frame-parent,
+  .login-with-facebook-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .facebook-1-parent {
+    cursor: pointer;
+    border: 1px solid var(--color-lavender-100);
+    padding: var(--padding-2xs) var(--padding-xl);
+    background-color: transparent;
+    align-self: stretch;
+    border-radius: var(--br-base);
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  
+  .frame-parent {
+    margin: 0;
+    position: absolute;
+    top: 149px;
+    left: 159px;
+    width: 364px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+    max-width: 100%;
+  }
+  
+  .frame-inner,
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .frame-item {
+    background: linear-gradient(217.64deg, #9181f4, #5038ed);
+    display: none;
+  }
+  
+  .frame-inner {
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .rectangle-div {
+    position: absolute;
+    top: 122px;
+    left: 136px;
+    border-radius: 46px;
+    background-color: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(13.6px);
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    box-sizing: border-box;
+    width: 412px;
+    height: 524px;
+    z-index: 2;
+  }
+  
+  .rectangle-parent {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 128px;
+    background: linear-gradient(217.64deg, #9181f4, #5038ed);
+    width: 683px;
+  }
+  
+  .women-with-tab-1 {
+    width: 785px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    display: none;
+    max-width: 100%;
+  }
+  
+  .now,
+  .very-good,
+  .waiting-for,
+  .works-are,
+  .you-login {
+    margin: 0;
+  }
+  
+  .very-good-works-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 46px;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 4;
+  }
+  
+  .very-good-works-are-waiting-fo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 62px;
+  }
+  
+  .accessory-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .thunderbolt-1-icon {
+    position: absolute;
+    top: 18px;
+    left: 19px;
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .accessory-shape-parent {
+    height: 79px;
+    flex: 1;
+    position: relative;
+  }
+  
+  .frame-button,
+  .women-with-tab-1-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .frame-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 79px;
+    flex-direction: row;
+    z-index: 4;
+  }
+  
+  .women-with-tab-1-parent {
+    position: absolute;
+    top: 122px;
+    left: 0;
+    width: 785px;
+    flex-direction: column;
+    padding: 26px 233px 98px;
+    box-sizing: border-box;
+    gap: 91px;
+    background-image: url(./image/women\ with\ tab\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    z-index: 3;
+  }
+  
+  .frame-parent2 {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 555px;
+    width: 811px;
+    max-width: 100%;
+  }
+  
+  .login {
+    width: 100%;
+    height: 768px;
+    position: relative;
+    border-radius: 24px;
+    background-color: var(--color-white);
+    overflow: hidden;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 32px;
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .login1 {
+      font-size: 24px;
+    }
+    .very-good-works-container {
+      font-size: 26px;
+      line-height: 37px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .login1 {
+      font-size: 18px;
+    }
+  }
+  
+  .login {
+    display: flex;
+    width: 100vw; /* Use full screen width */
+    height: 100vh; /* Use full screen height */
+  }
+  
+  .frame-parent,
+  .frame-parent2 {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+
+
+  
